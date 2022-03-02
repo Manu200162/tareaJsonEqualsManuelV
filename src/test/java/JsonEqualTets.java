@@ -44,7 +44,7 @@ public class JsonEqualTets {
         body1.put("Nombre","Manuel");
         body1.put("Apellido","Valenzuela");
         body1.put("Edad",21);
-        
+
 
 
         JSONObject body2=new JSONObject();
@@ -96,4 +96,28 @@ public class JsonEqualTets {
         Assertions.assertFalse(jsonEqual.equalJson(body1.toString(),body2.toString()),"Error resultado equivocado");
 
     }
+
+    @Test
+    public void example(){
+        JSONObject body1 =new JSONObject();
+        body1.put("name","eynar");
+        body1.put("icon",5);
+        body1.put("deleted",true);
+        body1.put("id",5465456);
+        body1.put("createTime","IGNORE");
+        body1.put("update",true);
+
+        JSONObject body2 =new JSONObject();
+        body2.put("name","eynar5");
+        body2.put("icon",5);
+        body2.put("deleted",true);
+        body2.put("id",5465456);
+        body2.put("createTime",1545645456);
+
+
+        JsonEqual jsonEqual =new JsonEqual();
+        Assertions.assertFalse(jsonEqual.equalJson(body1.toString(),body2.toString()),"Error resultado equivocado");
+
+    }
+
 }

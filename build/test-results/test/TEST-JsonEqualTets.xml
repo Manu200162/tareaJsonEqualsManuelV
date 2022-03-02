@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="JsonEqualTets" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-03-02T04:00:07" hostname="DESKTOP-2T6TAJ9" time="0.056">
+<testsuite name="JsonEqualTets" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-03-02T04:09:24" hostname="DESKTOP-2T6TAJ9" time="0.06">
   <properties/>
-  <testcase name="blankString()" classname="JsonEqualTets" time="0.032"/>
-  <testcase name="extraRow()" classname="JsonEqualTets" time="0.016"/>
+  <testcase name="blankString()" classname="JsonEqualTets" time="0.031"/>
+  <testcase name="extraRow()" classname="JsonEqualTets" time="0.02"/>
+  <testcase name="example()" classname="JsonEqualTets" time="0.001"/>
   <testcase name="wrongJson()" classname="JsonEqualTets" time="0.001"/>
-  <testcase name="sameJsonwithoutARow()" classname="JsonEqualTets" time="0.0"/>
+  <testcase name="sameJsonwithoutARow()" classname="JsonEqualTets" time="0.001"/>
   <testcase name="differentJson()" classname="JsonEqualTets" time="0.001"/>
-  <testcase name="sameJson()" classname="JsonEqualTets" time="0.002"/>
+  <testcase name="sameJson()" classname="JsonEqualTets" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
